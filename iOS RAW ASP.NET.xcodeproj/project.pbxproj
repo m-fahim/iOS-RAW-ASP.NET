@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3348A8D1AC411D600793D07 /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = D3348A831AC411D600793D07 /* Icon-40.png */; };
+		D3348A8E1AC411D600793D07 /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3348A841AC411D600793D07 /* Icon-40@2x.png */; };
+		D3348A8F1AC411D600793D07 /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3348A851AC411D600793D07 /* Icon-40@3x.png */; };
+		D3348A901AC411D600793D07 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3348A861AC411D600793D07 /* Icon-60@2x.png */; };
+		D3348A911AC411D600793D07 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3348A871AC411D600793D07 /* Icon-60@3x.png */; };
+		D3348A921AC411D600793D07 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = D3348A881AC411D600793D07 /* Icon-76.png */; };
+		D3348A931AC411D600793D07 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3348A891AC411D600793D07 /* Icon-76@2x.png */; };
+		D3348A941AC411D600793D07 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = D3348A8A1AC411D600793D07 /* Icon-Small.png */; };
+		D3348A951AC411D600793D07 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3348A8B1AC411D600793D07 /* Icon-Small@2x.png */; };
+		D3348A961AC411D600793D07 /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3348A8C1AC411D600793D07 /* Icon-Small@3x.png */; };
+		D3348A9A1AC4153C00793D07 /* LaunchImageIOSRAW.png in Resources */ = {isa = PBXBuildFile; fileRef = D3348A991AC4153C00793D07 /* LaunchImageIOSRAW.png */; };
+		D3348A9C1AC4184600793D07 /* LaunchImageIOSRAW-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D3348A9B1AC4184600793D07 /* LaunchImageIOSRAW-2.png */; };
+		D3B400E71AC6BD5B009C1C5B /* iOS RAW ASP.NET Screenshot Home.png in Resources */ = {isa = PBXBuildFile; fileRef = D3B400E41AC6BD5B009C1C5B /* iOS RAW ASP.NET Screenshot Home.png */; };
+		D3B400E81AC6BD5B009C1C5B /* iOS RAW ASP.NET Screenshot Register.png in Resources */ = {isa = PBXBuildFile; fileRef = D3B400E51AC6BD5B009C1C5B /* iOS RAW ASP.NET Screenshot Register.png */; };
+		D3B400E91AC6BD5B009C1C5B /* iOS RAW ASP.NET Screenshot Login.png in Resources */ = {isa = PBXBuildFile; fileRef = D3B400E61AC6BD5B009C1C5B /* iOS RAW ASP.NET Screenshot Login.png */; };
+		D3F5BAC41AC2B68500E7BEC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F5BAC31AC2B68500E7BEC3 /* Foundation.framework */; };
+		D3F5BAC61AC2B68500E7BEC3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F5BAC51AC2B68500E7BEC3 /* CoreGraphics.framework */; };
+		D3F5BAC81AC2B68500E7BEC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F5BAC71AC2B68500E7BEC3 /* UIKit.framework */; };
+		D3F5BACE1AC2B68500E7BEC3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3F5BACC1AC2B68500E7BEC3 /* InfoPlist.strings */; };
+		D3F5BAD01AC2B68500E7BEC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F5BACF1AC2B68500E7BEC3 /* main.m */; };
+		D3F5BAD41AC2B68500E7BEC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F5BAD31AC2B68500E7BEC3 /* AppDelegate.m */; };
+		D3F5BAD71AC2B68500E7BEC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3F5BAD51AC2B68500E7BEC3 /* Main.storyboard */; };
+		D3F5BADA1AC2B68500E7BEC3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F5BAD91AC2B68500E7BEC3 /* ViewController.m */; };
+		D3F5BADC1AC2B68500E7BEC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3F5BADB1AC2B68500E7BEC3 /* Images.xcassets */; };
+		D3F5BAE31AC2B68500E7BEC3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F5BAE21AC2B68500E7BEC3 /* XCTest.framework */; };
+		D3F5BAE41AC2B68500E7BEC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F5BAC31AC2B68500E7BEC3 /* Foundation.framework */; };
+		D3F5BAE51AC2B68500E7BEC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F5BAC71AC2B68500E7BEC3 /* UIKit.framework */; };
+		D3F5BAED1AC2B68500E7BEC3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3F5BAEB1AC2B68500E7BEC3 /* InfoPlist.strings */; };
+		D3F5BAEF1AC2B68500E7BEC3 /* iOS_RAW_ASP_NETTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F5BAEE1AC2B68500E7BEC3 /* iOS_RAW_ASP_NETTests.m */; };
+		D3F5BB081AC2B73900E7BEC3 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F5BAF91AC2B73900E7BEC3 /* home.png */; };
+		D3F5BB091AC2B73900E7BEC3 /* home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F5BAFA1AC2B73900E7BEC3 /* home@2x.png */; };
+		D3F5BB0A1AC2B73900E7BEC3 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F5BAFB1AC2B73900E7BEC3 /* back.png */; };
+		D3F5BB0B1AC2B73900E7BEC3 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F5BAFC1AC2B73900E7BEC3 /* back@2x.png */; };
+		D3F5BB0C1AC2B73900E7BEC3 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F5BAFD1AC2B73900E7BEC3 /* menu.png */; };
+		D3F5BB0D1AC2B73900E7BEC3 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F5BAFE1AC2B73900E7BEC3 /* menu@2x.png */; };
+		D3F5BB0E1AC2B73900E7BEC3 /* nav_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F5BAFF1AC2B73900E7BEC3 /* nav_bg.png */; };
+		D3F5BB0F1AC2B73900E7BEC3 /* bookmark.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F5BB001AC2B73900E7BEC3 /* bookmark.png */; };
+		D3F5BB101AC2B73900E7BEC3 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F5BB011AC2B73900E7BEC3 /* calendar.png */; };
+		D3F5BB111AC2B73900E7BEC3 /* comments.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F5BB021AC2B73900E7BEC3 /* comments.png */; };
+		D3F5BB121AC2B73900E7BEC3 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F5BB031AC2B73900E7BEC3 /* map.png */; };
+		D3F5BB131AC2B73900E7BEC3 /* news.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F5BB041AC2B73900E7BEC3 /* news.png */; };
+		D3F5BB141AC2B73900E7BEC3 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F5BB051AC2B73900E7BEC3 /* photo.png */; };
+		D3F5BB151AC2B73900E7BEC3 /* tag.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F5BB061AC2B73900E7BEC3 /* tag.png */; };
+		D3F5BB161AC2B73900E7BEC3 /* wishlist.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F5BB071AC2B73900E7BEC3 /* wishlist.png */; };
+		D3F5BB191AC2B77E00E7BEC3 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F5BB181AC2B77E00E7BEC3 /* RegisterViewController.m */; };
+		D3F5BB1C1AC2B7AE00E7BEC3 /* Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F5BB1B1AC2B7AE00E7BEC3 /* Configuration.m */; };
+		D3F5BB1F1AC2B7DD00E7BEC3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F5BB1E1AC2B7DD00E7BEC3 /* HomeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3F5BAE61AC2B68500E7BEC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3F5BAB81AC2B68500E7BEC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3F5BABF1AC2B68500E7BEC3;
+			remoteInfo = "iOS RAW ASP.NET";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3348A831AC411D600793D07 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		D3348A841AC411D600793D07 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		D3348A851AC411D600793D07 /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@3x.png"; sourceTree = "<group>"; };
+		D3348A861AC411D600793D07 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		D3348A871AC411D600793D07 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		D3348A881AC411D600793D07 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		D3348A891AC411D600793D07 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		D3348A8A1AC411D600793D07 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		D3348A8B1AC411D600793D07 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		D3348A8C1AC411D600793D07 /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		D3348A991AC4153C00793D07 /* LaunchImageIOSRAW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImageIOSRAW.png; sourceTree = "<group>"; };
+		D3348A9B1AC4184600793D07 /* LaunchImageIOSRAW-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImageIOSRAW-2.png"; sourceTree = "<group>"; };
+		D3B400E41AC6BD5B009C1C5B /* iOS RAW ASP.NET Screenshot Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS RAW ASP.NET Screenshot Home.png"; sourceTree = "<group>"; };
+		D3B400E51AC6BD5B009C1C5B /* iOS RAW ASP.NET Screenshot Register.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS RAW ASP.NET Screenshot Register.png"; sourceTree = "<group>"; };
+		D3B400E61AC6BD5B009C1C5B /* iOS RAW ASP.NET Screenshot Login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS RAW ASP.NET Screenshot Login.png"; sourceTree = "<group>"; };
+		D3F5BAC01AC2B68500E7BEC3 /* iOS RAW ASP.NET.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS RAW ASP.NET.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3F5BAC31AC2B68500E7BEC3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D3F5BAC51AC2B68500E7BEC3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D3F5BAC71AC2B68500E7BEC3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D3F5BACB1AC2B68500E7BEC3 /* iOS RAW ASP.NET-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS RAW ASP.NET-Info.plist"; sourceTree = "<group>"; };
+		D3F5BACD1AC2B68500E7BEC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D3F5BACF1AC2B68500E7BEC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3F5BAD11AC2B68500E7BEC3 /* iOS RAW ASP.NET-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS RAW ASP.NET-Prefix.pch"; sourceTree = "<group>"; };
+		D3F5BAD21AC2B68500E7BEC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3F5BAD31AC2B68500E7BEC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3F5BAD61AC2B68500E7BEC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3F5BAD81AC2B68500E7BEC3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3F5BAD91AC2B68500E7BEC3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3F5BADB1AC2B68500E7BEC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D3F5BAE11AC2B68500E7BEC3 /* iOS RAW ASP.NETTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS RAW ASP.NETTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3F5BAE21AC2B68500E7BEC3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D3F5BAEA1AC2B68500E7BEC3 /* iOS RAW ASP.NETTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS RAW ASP.NETTests-Info.plist"; sourceTree = "<group>"; };
+		D3F5BAEC1AC2B68500E7BEC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D3F5BAEE1AC2B68500E7BEC3 /* iOS_RAW_ASP_NETTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_RAW_ASP_NETTests.m; sourceTree = "<group>"; };
+		D3F5BAF91AC2B73900E7BEC3 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		D3F5BAFA1AC2B73900E7BEC3 /* home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home@2x.png"; sourceTree = "<group>"; };
+		D3F5BAFB1AC2B73900E7BEC3 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		D3F5BAFC1AC2B73900E7BEC3 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		D3F5BAFD1AC2B73900E7BEC3 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		D3F5BAFE1AC2B73900E7BEC3 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+		D3F5BAFF1AC2B73900E7BEC3 /* nav_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_bg.png; sourceTree = "<group>"; };
+		D3F5BB001AC2B73900E7BEC3 /* bookmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookmark.png; sourceTree = "<group>"; };
+		D3F5BB011AC2B73900E7BEC3 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
+		D3F5BB021AC2B73900E7BEC3 /* comments.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comments.png; sourceTree = "<group>"; };
+		D3F5BB031AC2B73900E7BEC3 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		D3F5BB041AC2B73900E7BEC3 /* news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = news.png; sourceTree = "<group>"; };
+		D3F5BB051AC2B73900E7BEC3 /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
+		D3F5BB061AC2B73900E7BEC3 /* tag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag.png; sourceTree = "<group>"; };
+		D3F5BB071AC2B73900E7BEC3 /* wishlist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wishlist.png; sourceTree = "<group>"; };
+		D3F5BB171AC2B77E00E7BEC3 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		D3F5BB181AC2B77E00E7BEC3 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		D3F5BB1A1AC2B7AE00E7BEC3 /* Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Configuration.h; sourceTree = "<group>"; };
+		D3F5BB1B1AC2B7AE00E7BEC3 /* Configuration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Configuration.m; sourceTree = "<group>"; };
+		D3F5BB1D1AC2B7DD00E7BEC3 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		D3F5BB1E1AC2B7DD00E7BEC3 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3F5BABD1AC2B68500E7BEC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F5BAC61AC2B68500E7BEC3 /* CoreGraphics.framework in Frameworks */,
+				D3F5BAC81AC2B68500E7BEC3 /* UIKit.framework in Frameworks */,
+				D3F5BAC41AC2B68500E7BEC3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F5BADE1AC2B68500E7BEC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F5BAE31AC2B68500E7BEC3 /* XCTest.framework in Frameworks */,
+				D3F5BAE51AC2B68500E7BEC3 /* UIKit.framework in Frameworks */,
+				D3F5BAE41AC2B68500E7BEC3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3348A821AC410D000793D07 /* AppIcons */ = {
+			isa = PBXGroup;
+			children = (
+				D3348A991AC4153C00793D07 /* LaunchImageIOSRAW.png */,
+				D3348A9B1AC4184600793D07 /* LaunchImageIOSRAW-2.png */,
+				D3348A831AC411D600793D07 /* Icon-40.png */,
+				D3348A841AC411D600793D07 /* Icon-40@2x.png */,
+				D3348A851AC411D600793D07 /* Icon-40@3x.png */,
+				D3348A861AC411D600793D07 /* Icon-60@2x.png */,
+				D3348A871AC411D600793D07 /* Icon-60@3x.png */,
+				D3348A881AC411D600793D07 /* Icon-76.png */,
+				D3348A891AC411D600793D07 /* Icon-76@2x.png */,
+				D3348A8A1AC411D600793D07 /* Icon-Small.png */,
+				D3348A8B1AC411D600793D07 /* Icon-Small@2x.png */,
+				D3348A8C1AC411D600793D07 /* Icon-Small@3x.png */,
+			);
+			name = AppIcons;
+			sourceTree = "<group>";
+		};
+		D3B400E31AC6BD42009C1C5B /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				D3B400E41AC6BD5B009C1C5B /* iOS RAW ASP.NET Screenshot Home.png */,
+				D3B400E51AC6BD5B009C1C5B /* iOS RAW ASP.NET Screenshot Register.png */,
+				D3B400E61AC6BD5B009C1C5B /* iOS RAW ASP.NET Screenshot Login.png */,
+			);
+			name = Screenshots;
+			sourceTree = "<group>";
+		};
+		D3F5BAB71AC2B68500E7BEC3 = {
+			isa = PBXGroup;
+			children = (
+				D3F5BAC91AC2B68500E7BEC3 /* iOS RAW ASP.NET */,
+				D3F5BAE81AC2B68500E7BEC3 /* iOS RAW ASP.NETTests */,
+				D3F5BAC21AC2B68500E7BEC3 /* Frameworks */,
+				D3F5BAC11AC2B68500E7BEC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3F5BAC11AC2B68500E7BEC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3F5BAC01AC2B68500E7BEC3 /* iOS RAW ASP.NET.app */,
+				D3F5BAE11AC2B68500E7BEC3 /* iOS RAW ASP.NETTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3F5BAC21AC2B68500E7BEC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3F5BAC31AC2B68500E7BEC3 /* Foundation.framework */,
+				D3F5BAC51AC2B68500E7BEC3 /* CoreGraphics.framework */,
+				D3F5BAC71AC2B68500E7BEC3 /* UIKit.framework */,
+				D3F5BAE21AC2B68500E7BEC3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3F5BAC91AC2B68500E7BEC3 /* iOS RAW ASP.NET */ = {
+			isa = PBXGroup;
+			children = (
+				D3F5BB171AC2B77E00E7BEC3 /* RegisterViewController.h */,
+				D3F5BB181AC2B77E00E7BEC3 /* RegisterViewController.m */,
+				D3F5BB1A1AC2B7AE00E7BEC3 /* Configuration.h */,
+				D3F5BB1B1AC2B7AE00E7BEC3 /* Configuration.m */,
+				D3F5BB1D1AC2B7DD00E7BEC3 /* HomeViewController.h */,
+				D3F5BB1E1AC2B7DD00E7BEC3 /* HomeViewController.m */,
+				D3F5BAD21AC2B68500E7BEC3 /* AppDelegate.h */,
+				D3F5BAD31AC2B68500E7BEC3 /* AppDelegate.m */,
+				D3F5BAD51AC2B68500E7BEC3 /* Main.storyboard */,
+				D3F5BAD81AC2B68500E7BEC3 /* ViewController.h */,
+				D3F5BAD91AC2B68500E7BEC3 /* ViewController.m */,
+				D3F5BADB1AC2B68500E7BEC3 /* Images.xcassets */,
+				D3F5BACA1AC2B68500E7BEC3 /* Supporting Files */,
+			);
+			path = "iOS RAW ASP.NET";
+			sourceTree = "<group>";
+		};
+		D3F5BACA1AC2B68500E7BEC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3F5BAF81AC2B71200E7BEC3 /* Images */,
+				D3F5BACB1AC2B68500E7BEC3 /* iOS RAW ASP.NET-Info.plist */,
+				D3F5BACC1AC2B68500E7BEC3 /* InfoPlist.strings */,
+				D3F5BACF1AC2B68500E7BEC3 /* main.m */,
+				D3F5BAD11AC2B68500E7BEC3 /* iOS RAW ASP.NET-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3F5BAE81AC2B68500E7BEC3 /* iOS RAW ASP.NETTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3F5BAEE1AC2B68500E7BEC3 /* iOS_RAW_ASP_NETTests.m */,
+				D3F5BAE91AC2B68500E7BEC3 /* Supporting Files */,
+			);
+			path = "iOS RAW ASP.NETTests";
+			sourceTree = "<group>";
+		};
+		D3F5BAE91AC2B68500E7BEC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3F5BAEA1AC2B68500E7BEC3 /* iOS RAW ASP.NETTests-Info.plist */,
+				D3F5BAEB1AC2B68500E7BEC3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3F5BAF81AC2B71200E7BEC3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D3B400E31AC6BD42009C1C5B /* Screenshots */,
+				D3348A821AC410D000793D07 /* AppIcons */,
+				D3F5BAF91AC2B73900E7BEC3 /* home.png */,
+				D3F5BAFA1AC2B73900E7BEC3 /* home@2x.png */,
+				D3F5BAFB1AC2B73900E7BEC3 /* back.png */,
+				D3F5BAFC1AC2B73900E7BEC3 /* back@2x.png */,
+				D3F5BAFD1AC2B73900E7BEC3 /* menu.png */,
+				D3F5BAFE1AC2B73900E7BEC3 /* menu@2x.png */,
+				D3F5BAFF1AC2B73900E7BEC3 /* nav_bg.png */,
+				D3F5BB001AC2B73900E7BEC3 /* bookmark.png */,
+				D3F5BB011AC2B73900E7BEC3 /* calendar.png */,
+				D3F5BB021AC2B73900E7BEC3 /* comments.png */,
+				D3F5BB031AC2B73900E7BEC3 /* map.png */,
+				D3F5BB041AC2B73900E7BEC3 /* news.png */,
+				D3F5BB051AC2B73900E7BEC3 /* photo.png */,
+				D3F5BB061AC2B73900E7BEC3 /* tag.png */,
+				D3F5BB071AC2B73900E7BEC3 /* wishlist.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3F5BABF1AC2B68500E7BEC3 /* iOS RAW ASP.NET */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3F5BAF21AC2B68500E7BEC3 /* Build configuration list for PBXNativeTarget "iOS RAW ASP.NET" */;
+			buildPhases = (
+				D3F5BABC1AC2B68500E7BEC3 /* Sources */,
+				D3F5BABD1AC2B68500E7BEC3 /* Frameworks */,
+				D3F5BABE1AC2B68500E7BEC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS RAW ASP.NET";
+			productName = "iOS RAW ASP.NET";
+			productReference = D3F5BAC01AC2B68500E7BEC3 /* iOS RAW ASP.NET.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3F5BAE01AC2B68500E7BEC3 /* iOS RAW ASP.NETTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3F5BAF51AC2B68500E7BEC3 /* Build configuration list for PBXNativeTarget "iOS RAW ASP.NETTests" */;
+			buildPhases = (
+				D3F5BADD1AC2B68500E7BEC3 /* Sources */,
+				D3F5BADE1AC2B68500E7BEC3 /* Frameworks */,
+				D3F5BADF1AC2B68500E7BEC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3F5BAE71AC2B68500E7BEC3 /* PBXTargetDependency */,
+			);
+			name = "iOS RAW ASP.NETTests";
+			productName = "iOS RAW ASP.NETTests";
+			productReference = D3F5BAE11AC2B68500E7BEC3 /* iOS RAW ASP.NETTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3F5BAB81AC2B68500E7BEC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = mfahim;
+				TargetAttributes = {
+					D3F5BAE01AC2B68500E7BEC3 = {
+						TestTargetID = D3F5BABF1AC2B68500E7BEC3;
+					};
+				};
+			};
+			buildConfigurationList = D3F5BABB1AC2B68500E7BEC3 /* Build configuration list for PBXProject "iOS RAW ASP.NET" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3F5BAB71AC2B68500E7BEC3;
+			productRefGroup = D3F5BAC11AC2B68500E7BEC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3F5BABF1AC2B68500E7BEC3 /* iOS RAW ASP.NET */,
+				D3F5BAE01AC2B68500E7BEC3 /* iOS RAW ASP.NETTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3F5BABE1AC2B68500E7BEC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F5BB0F1AC2B73900E7BEC3 /* bookmark.png in Resources */,
+				D3B400E91AC6BD5B009C1C5B /* iOS RAW ASP.NET Screenshot Login.png in Resources */,
+				D3F5BB101AC2B73900E7BEC3 /* calendar.png in Resources */,
+				D3F5BB0E1AC2B73900E7BEC3 /* nav_bg.png in Resources */,
+				D3B400E71AC6BD5B009C1C5B /* iOS RAW ASP.NET Screenshot Home.png in Resources */,
+				D3F5BB0C1AC2B73900E7BEC3 /* menu.png in Resources */,
+				D3F5BB121AC2B73900E7BEC3 /* map.png in Resources */,
+				D3F5BB091AC2B73900E7BEC3 /* home@2x.png in Resources */,
+				D3348A911AC411D600793D07 /* Icon-60@3x.png in Resources */,
+				D3F5BB141AC2B73900E7BEC3 /* photo.png in Resources */,
+				D3F5BB081AC2B73900E7BEC3 /* home.png in Resources */,
+				D3F5BB151AC2B73900E7BEC3 /* tag.png in Resources */,
+				D3B400E81AC6BD5B009C1C5B /* iOS RAW ASP.NET Screenshot Register.png in Resources */,
+				D3348A8E1AC411D600793D07 /* Icon-40@2x.png in Resources */,
+				D3F5BB0A1AC2B73900E7BEC3 /* back.png in Resources */,
+				D3348A9C1AC4184600793D07 /* LaunchImageIOSRAW-2.png in Resources */,
+				D3348A951AC411D600793D07 /* Icon-Small@2x.png in Resources */,
+				D3F5BB0D1AC2B73900E7BEC3 /* menu@2x.png in Resources */,
+				D3F5BB0B1AC2B73900E7BEC3 /* back@2x.png in Resources */,
+				D3F5BB111AC2B73900E7BEC3 /* comments.png in Resources */,
+				D3F5BB131AC2B73900E7BEC3 /* news.png in Resources */,
+				D3348A941AC411D600793D07 /* Icon-Small.png in Resources */,
+				D3348A901AC411D600793D07 /* Icon-60@2x.png in Resources */,
+				D3348A9A1AC4153C00793D07 /* LaunchImageIOSRAW.png in Resources */,
+				D3348A921AC411D600793D07 /* Icon-76.png in Resources */,
+				D3348A931AC411D600793D07 /* Icon-76@2x.png in Resources */,
+				D3F5BB161AC2B73900E7BEC3 /* wishlist.png in Resources */,
+				D3F5BADC1AC2B68500E7BEC3 /* Images.xcassets in Resources */,
+				D3F5BACE1AC2B68500E7BEC3 /* InfoPlist.strings in Resources */,
+				D3F5BAD71AC2B68500E7BEC3 /* Main.storyboard in Resources */,
+				D3348A8F1AC411D600793D07 /* Icon-40@3x.png in Resources */,
+				D3348A961AC411D600793D07 /* Icon-Small@3x.png in Resources */,
+				D3348A8D1AC411D600793D07 /* Icon-40.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F5BADF1AC2B68500E7BEC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F5BAED1AC2B68500E7BEC3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3F5BABC1AC2B68500E7BEC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F5BB1C1AC2B7AE00E7BEC3 /* Configuration.m in Sources */,
+				D3F5BADA1AC2B68500E7BEC3 /* ViewController.m in Sources */,
+				D3F5BAD41AC2B68500E7BEC3 /* AppDelegate.m in Sources */,
+				D3F5BAD01AC2B68500E7BEC3 /* main.m in Sources */,
+				D3F5BB191AC2B77E00E7BEC3 /* RegisterViewController.m in Sources */,
+				D3F5BB1F1AC2B7DD00E7BEC3 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F5BADD1AC2B68500E7BEC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F5BAEF1AC2B68500E7BEC3 /* iOS_RAW_ASP_NETTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3F5BAE71AC2B68500E7BEC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3F5BABF1AC2B68500E7BEC3 /* iOS RAW ASP.NET */;
+			targetProxy = D3F5BAE61AC2B68500E7BEC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3F5BACC1AC2B68500E7BEC3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3F5BACD1AC2B68500E7BEC3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D3F5BAD51AC2B68500E7BEC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3F5BAD61AC2B68500E7BEC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3F5BAEB1AC2B68500E7BEC3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3F5BAEC1AC2B68500E7BEC3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3F5BAF01AC2B68500E7BEC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3F5BAF11AC2B68500E7BEC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3F5BAF31AC2B68500E7BEC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS RAW ASP.NET/iOS RAW ASP.NET-Prefix.pch";
+				INFOPLIST_FILE = "iOS RAW ASP.NET/iOS RAW ASP.NET-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D3F5BAF41AC2B68500E7BEC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS RAW ASP.NET/iOS RAW ASP.NET-Prefix.pch";
+				INFOPLIST_FILE = "iOS RAW ASP.NET/iOS RAW ASP.NET-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D3F5BAF61AC2B68500E7BEC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS RAW ASP.NET.app/iOS RAW ASP.NET";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS RAW ASP.NET/iOS RAW ASP.NET-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS RAW ASP.NETTests/iOS RAW ASP.NETTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D3F5BAF71AC2B68500E7BEC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS RAW ASP.NET.app/iOS RAW ASP.NET";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS RAW ASP.NET/iOS RAW ASP.NET-Prefix.pch";
+				INFOPLIST_FILE = "iOS RAW ASP.NETTests/iOS RAW ASP.NETTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3F5BABB1AC2B68500E7BEC3 /* Build configuration list for PBXProject "iOS RAW ASP.NET" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3F5BAF01AC2B68500E7BEC3 /* Debug */,
+				D3F5BAF11AC2B68500E7BEC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3F5BAF21AC2B68500E7BEC3 /* Build configuration list for PBXNativeTarget "iOS RAW ASP.NET" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3F5BAF31AC2B68500E7BEC3 /* Debug */,
+				D3F5BAF41AC2B68500E7BEC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3F5BAF51AC2B68500E7BEC3 /* Build configuration list for PBXNativeTarget "iOS RAW ASP.NETTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3F5BAF61AC2B68500E7BEC3 /* Debug */,
+				D3F5BAF71AC2B68500E7BEC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3F5BAB81AC2B68500E7BEC3 /* Project object */;
+}
